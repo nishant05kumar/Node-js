@@ -16,7 +16,7 @@ let valueInNumber = Number(score) // it will convert it into number , string and
 
  let isLoggedIn = 1 
  let boolIn = Boolean(isLoggedIn)
-// console.log(boolIn)
+ console.log(boolIn)
 
  let someNumber = 33
  let stringNumber = String(someNumber)
