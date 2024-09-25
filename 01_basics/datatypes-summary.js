@@ -30,11 +30,35 @@ let myObj = {
 let myFunction = function() {         // function will return function.      - typeof
     console.log("hello world")
 }
-console.log(typeof score)
-console.log(typeof scoreValue)
-console.log(typeof id)
-console.log(typeof anotherId)
-console.log(typeof baba)
-console.log(typeof myObj)
-console.log(typeof myFunction)
+// console.log(typeof score)
+// console.log(typeof scoreValue)
+// console.log(typeof id)
+// console.log(typeof anotherId)
+// console.log(typeof baba)
+// console.log(typeof myObj)
+// console.log(typeof myFunction)
 
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// stack(Primitive)  = get the copy of data
+//heap(Non-Primitive) = get the original refrence of data 
+
+let myName = "nishantkumar"
+let anoName = myName
+anoName = "chai or code"
+//console.log(myName);
+
+//console.log(anoName) 
+
+let userOne = {
+    email : "nishant@google.com",
+    upi: "xyz@YBL"
+}
+let userTwo = userOne
+
+userTwo.email="baby@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
